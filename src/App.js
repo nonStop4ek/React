@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Posts from "./components/posts/posts";
+import Launches from "./components/launches/Launches";
+
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        {/*{*/}
+        {/*    users.map(value => <div>{value.name} {value.age}</div>)*/}
+        {/*}*/}
+        {/*<Posts />*/}
+      <Launches/>
     </div>
   );
 }
